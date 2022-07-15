@@ -20,7 +20,11 @@
 #include "main.h"
 #include "cmsis_os.h"
 #include "can.h"
+#include "i2c.h"
+#include "spi.h"
+#include "tim.h"
 #include "gpio.h"
+#include "BMI088Driver.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -88,7 +92,11 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_CAN1_Init();
+  MX_I2C3_Init();
+  MX_SPI1_Init();
+  MX_TIM10_Init();
   /* USER CODE BEGIN 2 */
+  bmi088_config_init();
 
   /* USER CODE END 2 */
 

@@ -20,16 +20,20 @@ private:
     uint8_t  canDLC = 8;          //set four ID's current in 8 bytes
     //speed control
     PIDParaStruct speedRingPara = {
-            7, 0, 0.9,
-            6000,
+          //  7.0, 0, 1.0,
+          6.0,1,3.0,
+            20000,
             10000,
             500
     };
     PIDParaStruct posRingPara = {
-            0.2, 0.0000, 0.15,
-            8200,
+            //0.2, 0.0000, 0.15,
+           // 1000,1.1,800,
+          //120,0.21,80,
+          80,5,0,
+            1000,
             10000,
-            500
+            2000
     };
 public:
     PID m2006PIDSpeedRing = PID(&speedRingPara);
@@ -38,6 +42,7 @@ public:
 
     M2006(uint8_t id_t,CAN_HandleTypeDef *hcan_t);
     void setExpSpeed(int16_t  speed_t);
+    void setExpAngle(float fb_angle);
     void updateInfo(const uint8_t* rxData) override;
 
     uint8_t * fillCanBuf(uint8_t * buf) const override;

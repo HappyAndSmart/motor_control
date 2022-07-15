@@ -26,11 +26,19 @@ void M2006::updateInfo(const uint8_t *rxData) {
     fbCurrent = ((uint16_t) rxData[4] << 8) | rxData[5];
     fbAngle = fbEcd  / ENCODER_RATIO;
 }
+
 void M2006::setExpSpeed(int16_t  speed_t){
     givenSpeed = speed_t;
     givenCurrent = m2006PIDSpeedRing.PID_Output(fbSpeed, givenSpeed);
     memset(txbuff, 0, 8);
     sendCanCmd(fillCanBuf(txbuff));
+}
+
+void M2006::setExpAngle(float fb_angle) {
+     givenSpeed = m2006PIDPosRing.PID_Output(fb_angle,0);
+//    memset(txbuff, 0, 8);
+//    sendCanCmd(fillCanBuf(txbuff));
+
 }
 uint8_t * M2006::fillCanBuf(uint8_t *buf) const {
 /*******  when use two CAN and CAN1 ID is 0 ~ motor_CAN2ID-1,CAN2 ID is motor_CAN2ID ~ motorNum ***/

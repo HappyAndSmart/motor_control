@@ -52,5 +52,11 @@ CMakeFiles/balance_car.elf.dir/application/init_task.cpp.obj: \
  D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
  D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
  D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
+ D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c.h \
+ D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c_ex.h \
  D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
- D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h
+ D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
+ D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
+ D:\clion\balance_car\application\ins_task.h

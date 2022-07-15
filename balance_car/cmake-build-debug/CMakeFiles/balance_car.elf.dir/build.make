@@ -110,10 +110,24 @@ CMakeFiles/balance_car.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Core/Src/gpio.c.s"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Core\Src\gpio.c -o CMakeFiles\balance_car.elf.dir\Core\Src\gpio.c.s
 
+CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
+CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.obj: ../Core/Src/i2c.c
+CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.obj"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.obj -MF CMakeFiles\balance_car.elf.dir\Core\Src\i2c.c.obj.d -o CMakeFiles\balance_car.elf.dir\Core\Src\i2c.c.obj -c D:\clion\balance_car\Core\Src\i2c.c
+
+CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.i"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion\balance_car\Core\Src\i2c.c > CMakeFiles\balance_car.elf.dir\Core\Src\i2c.c.i
+
+CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.s"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Core\Src\i2c.c -o CMakeFiles\balance_car.elf.dir\Core\Src\i2c.c.s
+
 CMakeFiles/balance_car.elf.dir/Core/Src/main.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
 CMakeFiles/balance_car.elf.dir/Core/Src/main.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/main.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\balance_car.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\balance_car.elf.dir\Core\Src\main.c.obj -c D:\clion\balance_car\Core\Src\main.c
 
 CMakeFiles/balance_car.elf.dir/Core/Src/main.c.i: cmake_force
@@ -124,10 +138,24 @@ CMakeFiles/balance_car.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Core/Src/main.c.s"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Core\Src\main.c -o CMakeFiles\balance_car.elf.dir\Core\Src\main.c.s
 
+CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
+CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
+CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.obj"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles\balance_car.elf.dir\Core\Src\spi.c.obj.d -o CMakeFiles\balance_car.elf.dir\Core\Src\spi.c.obj -c D:\clion\balance_car\Core\Src\spi.c
+
+CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.i"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion\balance_car\Core\Src\spi.c > CMakeFiles\balance_car.elf.dir\Core\Src\spi.c.i
+
+CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.s"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Core\Src\spi.c -o CMakeFiles\balance_car.elf.dir\Core\Src\spi.c.s
+
 CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\balance_car.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\balance_car.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c D:\clion\balance_car\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -141,7 +169,7 @@ CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
 CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\balance_car.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\balance_car.elf.dir\Core\Src\stm32f4xx_it.c.obj -c D:\clion\balance_car\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -155,7 +183,7 @@ CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/balance_car.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
 CMakeFiles/balance_car.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/syscalls.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\balance_car.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\balance_car.elf.dir\Core\Src\syscalls.c.obj -c D:\clion\balance_car\Core\Src\syscalls.c
 
 CMakeFiles/balance_car.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -169,7 +197,7 @@ CMakeFiles/balance_car.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/balance_car.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
 CMakeFiles/balance_car.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\balance_car.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\balance_car.elf.dir\Core\Src\system_stm32f4xx.c.obj -c D:\clion\balance_car\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/balance_car.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -180,10 +208,24 @@ CMakeFiles/balance_car.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Core/Src/system_stm32f4xx.c.s"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Core\Src\system_stm32f4xx.c -o CMakeFiles\balance_car.elf.dir\Core\Src\system_stm32f4xx.c.s
 
+CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
+CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
+CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.obj"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\balance_car.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\balance_car.elf.dir\Core\Src\tim.c.obj -c D:\clion\balance_car\Core\Src\tim.c
+
+CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.i"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion\balance_car\Core\Src\tim.c > CMakeFiles\balance_car.elf.dir\Core\Src\tim.c.i
+
+CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.s"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Core\Src\tim.c -o CMakeFiles\balance_car.elf.dir\Core\Src\tim.c.s
+
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -197,7 +239,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
@@ -211,7 +253,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ca
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -225,7 +267,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_co
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -239,7 +281,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dm
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -253,7 +295,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dm
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -267,7 +309,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ex
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -281,7 +323,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fl
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -295,7 +337,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fl
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -309,7 +351,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fl
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -320,10 +362,38 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
+
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c > CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.i
+
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c.s
+
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c
+
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c > CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.i
+
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c.s
+
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -337,7 +407,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pw
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -351,7 +421,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pw
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -365,7 +435,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rc
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -376,10 +446,24 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c
+
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c > CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.i
+
+CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c.s
+
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -393,7 +477,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ti
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\balance_car.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -407,7 +491,7 @@ CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ti
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj -MF CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj.d -o CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
 
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
@@ -421,7 +505,7 @@ CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTO
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
 
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -435,7 +519,7 @@ CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
 
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -449,7 +533,7 @@ CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_gro
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\list.c
 
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -463,7 +547,7 @@ CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s:
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
 
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
@@ -477,7 +561,7 @@ CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
 
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -491,7 +575,7 @@ CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\queue.c
 
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -505,7 +589,7 @@ CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
 
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -519,7 +603,7 @@ CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_bu
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
 
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -533,7 +617,7 @@ CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\balance_car.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\timers.c
 
 CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -546,7 +630,7 @@ CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.
 
 CMakeFiles/balance_car.elf.dir/startup/startup_stm32f407xx.s.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/startup/startup_stm32f407xx.s.obj: ../startup/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/balance_car.elf.dir/startup/startup_stm32f407xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/balance_car.elf.dir/startup/startup_stm32f407xx.s.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\balance_car.elf.dir\startup\startup_stm32f407xx.s.obj -c D:\clion\balance_car\startup\startup_stm32f407xx.s
 
 CMakeFiles/balance_car.elf.dir/startup/startup_stm32f407xx.s.i: cmake_force
@@ -560,7 +644,7 @@ CMakeFiles/balance_car.elf.dir/startup/startup_stm32f407xx.s.s: cmake_force
 CMakeFiles/balance_car.elf.dir/application/motor_task.cpp.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/application/motor_task.cpp.obj: ../application/motor_task.cpp
 CMakeFiles/balance_car.elf.dir/application/motor_task.cpp.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/balance_car.elf.dir/application/motor_task.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/balance_car.elf.dir/application/motor_task.cpp.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/application/motor_task.cpp.obj -MF CMakeFiles\balance_car.elf.dir\application\motor_task.cpp.obj.d -o CMakeFiles\balance_car.elf.dir\application\motor_task.cpp.obj -c D:\clion\balance_car\application\motor_task.cpp
 
 CMakeFiles/balance_car.elf.dir/application/motor_task.cpp.i: cmake_force
@@ -571,10 +655,24 @@ CMakeFiles/balance_car.elf.dir/application/motor_task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/balance_car.elf.dir/application/motor_task.cpp.s"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion\balance_car\application\motor_task.cpp -o CMakeFiles\balance_car.elf.dir\application\motor_task.cpp.s
 
+CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.obj: CMakeFiles/balance_car.elf.dir/flags.make
+CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.obj: ../application/ins_task.cpp
+CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.obj"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.obj -MF CMakeFiles\balance_car.elf.dir\application\ins_task.cpp.obj.d -o CMakeFiles\balance_car.elf.dir\application\ins_task.cpp.obj -c D:\clion\balance_car\application\ins_task.cpp
+
+CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.i"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\clion\balance_car\application\ins_task.cpp > CMakeFiles\balance_car.elf.dir\application\ins_task.cpp.i
+
+CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.s"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion\balance_car\application\ins_task.cpp -o CMakeFiles\balance_car.elf.dir\application\ins_task.cpp.s
+
 CMakeFiles/balance_car.elf.dir/application/init_task.cpp.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/application/init_task.cpp.obj: ../application/init_task.cpp
 CMakeFiles/balance_car.elf.dir/application/init_task.cpp.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/balance_car.elf.dir/application/init_task.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/balance_car.elf.dir/application/init_task.cpp.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/application/init_task.cpp.obj -MF CMakeFiles\balance_car.elf.dir\application\init_task.cpp.obj.d -o CMakeFiles\balance_car.elf.dir\application\init_task.cpp.obj -c D:\clion\balance_car\application\init_task.cpp
 
 CMakeFiles/balance_car.elf.dir/application/init_task.cpp.i: cmake_force
@@ -588,7 +686,7 @@ CMakeFiles/balance_car.elf.dir/application/init_task.cpp.s: cmake_force
 CMakeFiles/balance_car.elf.dir/Components/Motor/motor.cpp.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Components/Motor/motor.cpp.obj: ../Components/Motor/motor.cpp
 CMakeFiles/balance_car.elf.dir/Components/Motor/motor.cpp.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/balance_car.elf.dir/Components/Motor/motor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/balance_car.elf.dir/Components/Motor/motor.cpp.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Components/Motor/motor.cpp.obj -MF CMakeFiles\balance_car.elf.dir\Components\Motor\motor.cpp.obj.d -o CMakeFiles\balance_car.elf.dir\Components\Motor\motor.cpp.obj -c D:\clion\balance_car\Components\Motor\motor.cpp
 
 CMakeFiles/balance_car.elf.dir/Components/Motor/motor.cpp.i: cmake_force
@@ -602,7 +700,7 @@ CMakeFiles/balance_car.elf.dir/Components/Motor/motor.cpp.s: cmake_force
 CMakeFiles/balance_car.elf.dir/Components/Motor/M2006.cpp.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Components/Motor/M2006.cpp.obj: ../Components/Motor/M2006.cpp
 CMakeFiles/balance_car.elf.dir/Components/Motor/M2006.cpp.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/balance_car.elf.dir/Components/Motor/M2006.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/balance_car.elf.dir/Components/Motor/M2006.cpp.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Components/Motor/M2006.cpp.obj -MF CMakeFiles\balance_car.elf.dir\Components\Motor\M2006.cpp.obj.d -o CMakeFiles\balance_car.elf.dir\Components\Motor\M2006.cpp.obj -c D:\clion\balance_car\Components\Motor\M2006.cpp
 
 CMakeFiles/balance_car.elf.dir/Components/Motor/M2006.cpp.i: cmake_force
@@ -616,7 +714,7 @@ CMakeFiles/balance_car.elf.dir/Components/Motor/M2006.cpp.s: cmake_force
 CMakeFiles/balance_car.elf.dir/Components/Math/pid.cpp.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Components/Math/pid.cpp.obj: ../Components/Math/pid.cpp
 CMakeFiles/balance_car.elf.dir/Components/Math/pid.cpp.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/balance_car.elf.dir/Components/Math/pid.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/balance_car.elf.dir/Components/Math/pid.cpp.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Components/Math/pid.cpp.obj -MF CMakeFiles\balance_car.elf.dir\Components\Math\pid.cpp.obj.d -o CMakeFiles\balance_car.elf.dir\Components\Math\pid.cpp.obj -c D:\clion\balance_car\Components\Math\pid.cpp
 
 CMakeFiles/balance_car.elf.dir/Components/Math/pid.cpp.i: cmake_force
@@ -630,7 +728,7 @@ CMakeFiles/balance_car.elf.dir/Components/Math/pid.cpp.s: cmake_force
 CMakeFiles/balance_car.elf.dir/Components/Math/MahonyAHRS.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Components/Math/MahonyAHRS.c.obj: ../Components/Math/MahonyAHRS.c
 CMakeFiles/balance_car.elf.dir/Components/Math/MahonyAHRS.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/balance_car.elf.dir/Components/Math/MahonyAHRS.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/balance_car.elf.dir/Components/Math/MahonyAHRS.c.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Components/Math/MahonyAHRS.c.obj -MF CMakeFiles\balance_car.elf.dir\Components\Math\MahonyAHRS.c.obj.d -o CMakeFiles\balance_car.elf.dir\Components\Math\MahonyAHRS.c.obj -c D:\clion\balance_car\Components\Math\MahonyAHRS.c
 
 CMakeFiles/balance_car.elf.dir/Components/Math/MahonyAHRS.c.i: cmake_force
@@ -644,7 +742,7 @@ CMakeFiles/balance_car.elf.dir/Components/Math/MahonyAHRS.c.s: cmake_force
 CMakeFiles/balance_car.elf.dir/Components/Support/canRxCallback.cpp.obj: CMakeFiles/balance_car.elf.dir/flags.make
 CMakeFiles/balance_car.elf.dir/Components/Support/canRxCallback.cpp.obj: ../Components/Support/canRxCallback.cpp
 CMakeFiles/balance_car.elf.dir/Components/Support/canRxCallback.cpp.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/balance_car.elf.dir/Components/Support/canRxCallback.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/balance_car.elf.dir/Components/Support/canRxCallback.cpp.obj"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Components/Support/canRxCallback.cpp.obj -MF CMakeFiles\balance_car.elf.dir\Components\Support\canRxCallback.cpp.obj.d -o CMakeFiles\balance_car.elf.dir\Components\Support\canRxCallback.cpp.obj -c D:\clion\balance_car\Components\Support\canRxCallback.cpp
 
 CMakeFiles/balance_car.elf.dir/Components/Support/canRxCallback.cpp.i: cmake_force
@@ -655,16 +753,89 @@ CMakeFiles/balance_car.elf.dir/Components/Support/canRxCallback.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/balance_car.elf.dir/Components/Support/canRxCallback.cpp.s"
 	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\clion\balance_car\Components\Support\canRxCallback.cpp -o CMakeFiles\balance_car.elf.dir\Components\Support\canRxCallback.cpp.s
 
+CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
+CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.obj: ../Components/BMI088/BMI088Driver.c
+CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.obj"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.obj -MF CMakeFiles\balance_car.elf.dir\Components\BMI088\BMI088Driver.c.obj.d -o CMakeFiles\balance_car.elf.dir\Components\BMI088\BMI088Driver.c.obj -c D:\clion\balance_car\Components\BMI088\BMI088Driver.c
+
+CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.i"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion\balance_car\Components\BMI088\BMI088Driver.c > CMakeFiles\balance_car.elf.dir\Components\BMI088\BMI088Driver.c.i
+
+CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.s"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Components\BMI088\BMI088Driver.c -o CMakeFiles\balance_car.elf.dir\Components\BMI088\BMI088Driver.c.s
+
+CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
+CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.obj: ../Components/BMI088/bsp_imu_pwm.c
+CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.obj"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.obj -MF CMakeFiles\balance_car.elf.dir\Components\BMI088\bsp_imu_pwm.c.obj.d -o CMakeFiles\balance_car.elf.dir\Components\BMI088\bsp_imu_pwm.c.obj -c D:\clion\balance_car\Components\BMI088\bsp_imu_pwm.c
+
+CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.i"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion\balance_car\Components\BMI088\bsp_imu_pwm.c > CMakeFiles\balance_car.elf.dir\Components\BMI088\bsp_imu_pwm.c.i
+
+CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.s"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Components\BMI088\bsp_imu_pwm.c -o CMakeFiles\balance_car.elf.dir\Components\BMI088\bsp_imu_pwm.c.s
+
+CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
+CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.obj: ../Components/BMI088/BMI088Middleware.c
+CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.obj"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.obj -MF CMakeFiles\balance_car.elf.dir\Components\BMI088\BMI088Middleware.c.obj.d -o CMakeFiles\balance_car.elf.dir\Components\BMI088\BMI088Middleware.c.obj -c D:\clion\balance_car\Components\BMI088\BMI088Middleware.c
+
+CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.i"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion\balance_car\Components\BMI088\BMI088Middleware.c > CMakeFiles\balance_car.elf.dir\Components\BMI088\BMI088Middleware.c.i
+
+CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.s"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Components\BMI088\BMI088Middleware.c -o CMakeFiles\balance_car.elf.dir\Components\BMI088\BMI088Middleware.c.s
+
+CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
+CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.obj: ../Components/IST8310/ist8310driver.c
+CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.obj"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.obj -MF CMakeFiles\balance_car.elf.dir\Components\IST8310\ist8310driver.c.obj.d -o CMakeFiles\balance_car.elf.dir\Components\IST8310\ist8310driver.c.obj -c D:\clion\balance_car\Components\IST8310\ist8310driver.c
+
+CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.i"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion\balance_car\Components\IST8310\ist8310driver.c > CMakeFiles\balance_car.elf.dir\Components\IST8310\ist8310driver.c.i
+
+CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.s"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Components\IST8310\ist8310driver.c -o CMakeFiles\balance_car.elf.dir\Components\IST8310\ist8310driver.c.s
+
+CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.obj: CMakeFiles/balance_car.elf.dir/flags.make
+CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.obj: ../Components/IST8310/ist8310driver_middleware.c
+CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.obj: CMakeFiles/balance_car.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.obj"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.obj -MF CMakeFiles\balance_car.elf.dir\Components\IST8310\ist8310driver_middleware.c.obj.d -o CMakeFiles\balance_car.elf.dir\Components\IST8310\ist8310driver_middleware.c.obj -c D:\clion\balance_car\Components\IST8310\ist8310driver_middleware.c
+
+CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.i"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\clion\balance_car\Components\IST8310\ist8310driver_middleware.c > CMakeFiles\balance_car.elf.dir\Components\IST8310\ist8310driver_middleware.c.i
+
+CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.s"
+	D:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\clion\balance_car\Components\IST8310\ist8310driver_middleware.c -o CMakeFiles\balance_car.elf.dir\Components\IST8310\ist8310driver_middleware.c.s
+
 # Object files for target balance_car.elf
 balance_car_elf_OBJECTS = \
 "CMakeFiles/balance_car.elf.dir/Core/Src/can.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Core/Src/freertos.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Core/Src/gpio.c.obj" \
+"CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Core/Src/main.c.obj" \
+"CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_it.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
+"CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" \
@@ -675,10 +846,13 @@ balance_car_elf_OBJECTS = \
 "CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" \
+"CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj" \
+"CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" \
+"CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" \
@@ -693,12 +867,18 @@ balance_car_elf_OBJECTS = \
 "CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
 "CMakeFiles/balance_car.elf.dir/startup/startup_stm32f407xx.s.obj" \
 "CMakeFiles/balance_car.elf.dir/application/motor_task.cpp.obj" \
+"CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.obj" \
 "CMakeFiles/balance_car.elf.dir/application/init_task.cpp.obj" \
 "CMakeFiles/balance_car.elf.dir/Components/Motor/motor.cpp.obj" \
 "CMakeFiles/balance_car.elf.dir/Components/Motor/M2006.cpp.obj" \
 "CMakeFiles/balance_car.elf.dir/Components/Math/pid.cpp.obj" \
 "CMakeFiles/balance_car.elf.dir/Components/Math/MahonyAHRS.c.obj" \
-"CMakeFiles/balance_car.elf.dir/Components/Support/canRxCallback.cpp.obj"
+"CMakeFiles/balance_car.elf.dir/Components/Support/canRxCallback.cpp.obj" \
+"CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.obj" \
+"CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.obj" \
+"CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.obj" \
+"CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.obj" \
+"CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.obj"
 
 # External object files for target balance_car.elf
 balance_car_elf_EXTERNAL_OBJECTS =
@@ -706,11 +886,14 @@ balance_car_elf_EXTERNAL_OBJECTS =
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Core/Src/can.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Core/Src/freertos.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Core/Src/gpio.c.obj
+balance_car.elf: CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Core/Src/main.c.obj
+balance_car.elf: CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Core/Src/stm32f4xx_it.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Core/Src/syscalls.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Core/Src/system_stm32f4xx.c.obj
+balance_car.elf: CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
@@ -721,10 +904,13 @@ balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
@@ -739,15 +925,22 @@ balance_car.elf: CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/startup/startup_stm32f407xx.s.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/application/motor_task.cpp.obj
+balance_car.elf: CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/application/init_task.cpp.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Components/Motor/motor.cpp.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Components/Motor/M2006.cpp.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Components/Math/pid.cpp.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Components/Math/MahonyAHRS.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/Components/Support/canRxCallback.cpp.obj
+balance_car.elf: CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.obj
+balance_car.elf: CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.obj
+balance_car.elf: CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.obj
+balance_car.elf: CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.obj
+balance_car.elf: CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.obj
 balance_car.elf: CMakeFiles/balance_car.elf.dir/build.make
+balance_car.elf: CMakeFiles/balance_car.elf.dir/objects1.rsp
 balance_car.elf: CMakeFiles/balance_car.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Linking CXX executable balance_car.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\clion\balance_car\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Linking CXX executable balance_car.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\balance_car.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/clion/balance_car/cmake-build-debug/balance_car.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/clion/balance_car/cmake-build-debug/balance_car.bin"

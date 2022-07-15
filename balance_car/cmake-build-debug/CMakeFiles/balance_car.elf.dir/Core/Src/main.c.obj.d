@@ -33,8 +33,13 @@ CMakeFiles/balance_car.elf.dir/Core/Src/main.c.obj: \
  D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash.h \
  D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ex.h \
  D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_flash_ramfunc.h \
+ D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c.h \
+ D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_i2c_ex.h \
  D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr.h \
  D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
+ D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_spi.h \
+ D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\clion\balance_car\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS/cmsis_os.h \
  D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
  D:\clion\balance_car\Core\Inc/FreeRTOSConfig.h \
@@ -53,4 +58,6 @@ CMakeFiles/balance_car.elf.dir/Core/Src/main.c.obj: \
  D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\include/event_groups.h \
  D:\clion\balance_car\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
  D:\clion\balance_car\Core\Inc/can.h D:\clion\balance_car\Core\Inc/main.h \
- D:\clion\balance_car\Core\Inc/gpio.h
+ D:\clion\balance_car\Core\Inc/i2c.h D:\clion\balance_car\Core\Inc/spi.h \
+ D:\clion\balance_car\Core\Inc/tim.h D:\clion\balance_car\Core\Inc/gpio.h \
+ D:\clion\balance_car\Components\BMI088/BMI088Driver.h

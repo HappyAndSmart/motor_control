@@ -41,6 +41,8 @@
 					<Add directory="D:/clion/balance_car/Components/Motor"/>
 					<Add directory="D:/clion/balance_car/Components/Math"/>
 					<Add directory="D:/clion/balance_car/Components/Support"/>
+					<Add directory="D:/clion/balance_car/Components/BMI088"/>
+					<Add directory="D:/clion/balance_car/Components/IST8310"/>
 					<Add directory="d:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include/c++/11.2.1"/>
 					<Add directory="d:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include/c++/11.2.1/arm-none-eabi"/>
 					<Add directory="d:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include/c++/11.2.1/backward"/>
@@ -79,6 +81,8 @@
 					<Add directory="D:/clion/balance_car/Components/Motor"/>
 					<Add directory="D:/clion/balance_car/Components/Math"/>
 					<Add directory="D:/clion/balance_car/Components/Support"/>
+					<Add directory="D:/clion/balance_car/Components/BMI088"/>
+					<Add directory="D:/clion/balance_car/Components/IST8310"/>
 					<Add directory="d:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include/c++/11.2.1"/>
 					<Add directory="d:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include/c++/11.2.1/arm-none-eabi"/>
 					<Add directory="d:\clion\gcc_arm\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\gcc-arm-11.2-2022.02-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include/c++/11.2.1/backward"/>
@@ -114,6 +118,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/clion/balance_car/Components/BMI088/BMI088Driver.c">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Components/BMI088/BMI088Driver.h">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Components/BMI088/BMI088Middleware.c">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Components/BMI088/BMI088Middleware.h">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Components/BMI088/bsp_imu_pwm.c">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Components/BMI088/bsp_imu_pwm.h">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Components/IST8310/ist8310driver.c">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Components/IST8310/ist8310driver.h">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Components/IST8310/ist8310driver_middleware.c">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Components/IST8310/ist8310driver_middleware.h">
+			<Option target="balance_car.elf"/>
+		</Unit>
 		<Unit filename="D:/clion/balance_car/Components/Math/MahonyAHRS.c">
 			<Option target="balance_car.elf"/>
 		</Unit>
@@ -150,13 +184,22 @@
 		<Unit filename="D:/clion/balance_car/Core/Inc/gpio.h">
 			<Option target="balance_car.elf"/>
 		</Unit>
+		<Unit filename="D:/clion/balance_car/Core/Inc/i2c.h">
+			<Option target="balance_car.elf"/>
+		</Unit>
 		<Unit filename="D:/clion/balance_car/Core/Inc/main.h">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Core/Inc/spi.h">
 			<Option target="balance_car.elf"/>
 		</Unit>
 		<Unit filename="D:/clion/balance_car/Core/Inc/stm32f4xx_hal_conf.h">
 			<Option target="balance_car.elf"/>
 		</Unit>
 		<Unit filename="D:/clion/balance_car/Core/Inc/stm32f4xx_it.h">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Core/Inc/tim.h">
 			<Option target="balance_car.elf"/>
 		</Unit>
 		<Unit filename="D:/clion/balance_car/Core/Src/can.c">
@@ -168,7 +211,13 @@
 		<Unit filename="D:/clion/balance_car/Core/Src/gpio.c">
 			<Option target="balance_car.elf"/>
 		</Unit>
+		<Unit filename="D:/clion/balance_car/Core/Src/i2c.c">
+			<Option target="balance_car.elf"/>
+		</Unit>
 		<Unit filename="D:/clion/balance_car/Core/Src/main.c">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Core/Src/spi.c">
 			<Option target="balance_car.elf"/>
 		</Unit>
 		<Unit filename="D:/clion/balance_car/Core/Src/stm32f4xx_hal_msp.c">
@@ -181,6 +230,9 @@
 			<Option target="balance_car.elf"/>
 		</Unit>
 		<Unit filename="D:/clion/balance_car/Core/Src/system_stm32f4xx.c">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Core/Src/tim.c">
 			<Option target="balance_car.elf"/>
 		</Unit>
 		<Unit filename="D:/clion/balance_car/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
@@ -300,6 +352,12 @@
 		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
 			<Option target="balance_car.elf"/>
 		</Unit>
+		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="balance_car.elf"/>
+		</Unit>
 		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="balance_car.elf"/>
 		</Unit>
@@ -310,6 +368,9 @@
 			<Option target="balance_car.elf"/>
 		</Unit>
 		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
 			<Option target="balance_car.elf"/>
 		</Unit>
 		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
@@ -351,6 +412,12 @@
 		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
 			<Option target="balance_car.elf"/>
 		</Unit>
+		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="balance_car.elf"/>
+		</Unit>
 		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
 			<Option target="balance_car.elf"/>
 		</Unit>
@@ -361,6 +428,9 @@
 			<Option target="balance_car.elf"/>
 		</Unit>
 		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
 			<Option target="balance_car.elf"/>
 		</Unit>
 		<Unit filename="D:/clion/balance_car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
@@ -466,6 +536,12 @@
 			<Option target="balance_car.elf"/>
 		</Unit>
 		<Unit filename="D:/clion/balance_car/application/init_task.h">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/application/ins_task.cpp">
+			<Option target="balance_car.elf"/>
+		</Unit>
+		<Unit filename="D:/clion/balance_car/application/ins_task.h">
 			<Option target="balance_car.elf"/>
 		</Unit>
 		<Unit filename="D:/clion/balance_car/application/motor_task.cpp">

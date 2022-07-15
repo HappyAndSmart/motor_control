@@ -128,6 +128,126 @@ balance_car.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/build
 .PHONY : balance_car.elf/fast
 
+Components/BMI088/BMI088Driver.obj: Components/BMI088/BMI088Driver.c.obj
+.PHONY : Components/BMI088/BMI088Driver.obj
+
+# target to build an object file
+Components/BMI088/BMI088Driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.obj
+.PHONY : Components/BMI088/BMI088Driver.c.obj
+
+Components/BMI088/BMI088Driver.i: Components/BMI088/BMI088Driver.c.i
+.PHONY : Components/BMI088/BMI088Driver.i
+
+# target to preprocess a source file
+Components/BMI088/BMI088Driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.i
+.PHONY : Components/BMI088/BMI088Driver.c.i
+
+Components/BMI088/BMI088Driver.s: Components/BMI088/BMI088Driver.c.s
+.PHONY : Components/BMI088/BMI088Driver.s
+
+# target to generate assembly for a file
+Components/BMI088/BMI088Driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Driver.c.s
+.PHONY : Components/BMI088/BMI088Driver.c.s
+
+Components/BMI088/BMI088Middleware.obj: Components/BMI088/BMI088Middleware.c.obj
+.PHONY : Components/BMI088/BMI088Middleware.obj
+
+# target to build an object file
+Components/BMI088/BMI088Middleware.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.obj
+.PHONY : Components/BMI088/BMI088Middleware.c.obj
+
+Components/BMI088/BMI088Middleware.i: Components/BMI088/BMI088Middleware.c.i
+.PHONY : Components/BMI088/BMI088Middleware.i
+
+# target to preprocess a source file
+Components/BMI088/BMI088Middleware.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.i
+.PHONY : Components/BMI088/BMI088Middleware.c.i
+
+Components/BMI088/BMI088Middleware.s: Components/BMI088/BMI088Middleware.c.s
+.PHONY : Components/BMI088/BMI088Middleware.s
+
+# target to generate assembly for a file
+Components/BMI088/BMI088Middleware.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/BMI088/BMI088Middleware.c.s
+.PHONY : Components/BMI088/BMI088Middleware.c.s
+
+Components/BMI088/bsp_imu_pwm.obj: Components/BMI088/bsp_imu_pwm.c.obj
+.PHONY : Components/BMI088/bsp_imu_pwm.obj
+
+# target to build an object file
+Components/BMI088/bsp_imu_pwm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.obj
+.PHONY : Components/BMI088/bsp_imu_pwm.c.obj
+
+Components/BMI088/bsp_imu_pwm.i: Components/BMI088/bsp_imu_pwm.c.i
+.PHONY : Components/BMI088/bsp_imu_pwm.i
+
+# target to preprocess a source file
+Components/BMI088/bsp_imu_pwm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.i
+.PHONY : Components/BMI088/bsp_imu_pwm.c.i
+
+Components/BMI088/bsp_imu_pwm.s: Components/BMI088/bsp_imu_pwm.c.s
+.PHONY : Components/BMI088/bsp_imu_pwm.s
+
+# target to generate assembly for a file
+Components/BMI088/bsp_imu_pwm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/BMI088/bsp_imu_pwm.c.s
+.PHONY : Components/BMI088/bsp_imu_pwm.c.s
+
+Components/IST8310/ist8310driver.obj: Components/IST8310/ist8310driver.c.obj
+.PHONY : Components/IST8310/ist8310driver.obj
+
+# target to build an object file
+Components/IST8310/ist8310driver.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.obj
+.PHONY : Components/IST8310/ist8310driver.c.obj
+
+Components/IST8310/ist8310driver.i: Components/IST8310/ist8310driver.c.i
+.PHONY : Components/IST8310/ist8310driver.i
+
+# target to preprocess a source file
+Components/IST8310/ist8310driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.i
+.PHONY : Components/IST8310/ist8310driver.c.i
+
+Components/IST8310/ist8310driver.s: Components/IST8310/ist8310driver.c.s
+.PHONY : Components/IST8310/ist8310driver.s
+
+# target to generate assembly for a file
+Components/IST8310/ist8310driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver.c.s
+.PHONY : Components/IST8310/ist8310driver.c.s
+
+Components/IST8310/ist8310driver_middleware.obj: Components/IST8310/ist8310driver_middleware.c.obj
+.PHONY : Components/IST8310/ist8310driver_middleware.obj
+
+# target to build an object file
+Components/IST8310/ist8310driver_middleware.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.obj
+.PHONY : Components/IST8310/ist8310driver_middleware.c.obj
+
+Components/IST8310/ist8310driver_middleware.i: Components/IST8310/ist8310driver_middleware.c.i
+.PHONY : Components/IST8310/ist8310driver_middleware.i
+
+# target to preprocess a source file
+Components/IST8310/ist8310driver_middleware.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.i
+.PHONY : Components/IST8310/ist8310driver_middleware.c.i
+
+Components/IST8310/ist8310driver_middleware.s: Components/IST8310/ist8310driver_middleware.c.s
+.PHONY : Components/IST8310/ist8310driver_middleware.s
+
+# target to generate assembly for a file
+Components/IST8310/ist8310driver_middleware.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Components/IST8310/ist8310driver_middleware.c.s
+.PHONY : Components/IST8310/ist8310driver_middleware.c.s
+
 Components/Math/MahonyAHRS.obj: Components/Math/MahonyAHRS.c.obj
 .PHONY : Components/Math/MahonyAHRS.obj
 
@@ -320,6 +440,30 @@ Core/Src/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Core/Src/gpio.c.s
 .PHONY : Core/Src/gpio.c.s
 
+Core/Src/i2c.obj: Core/Src/i2c.c.obj
+.PHONY : Core/Src/i2c.obj
+
+# target to build an object file
+Core/Src/i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.obj
+.PHONY : Core/Src/i2c.c.obj
+
+Core/Src/i2c.i: Core/Src/i2c.c.i
+.PHONY : Core/Src/i2c.i
+
+# target to preprocess a source file
+Core/Src/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.i
+.PHONY : Core/Src/i2c.c.i
+
+Core/Src/i2c.s: Core/Src/i2c.c.s
+.PHONY : Core/Src/i2c.s
+
+# target to generate assembly for a file
+Core/Src/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Core/Src/i2c.c.s
+.PHONY : Core/Src/i2c.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
 
@@ -343,6 +487,30 @@ Core/Src/main.s: Core/Src/main.c.s
 Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
+
+Core/Src/spi.obj: Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.obj
+
+# target to build an object file
+Core/Src/spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.obj
+.PHONY : Core/Src/spi.c.obj
+
+Core/Src/spi.i: Core/Src/spi.c.i
+.PHONY : Core/Src/spi.i
+
+# target to preprocess a source file
+Core/Src/spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.i
+.PHONY : Core/Src/spi.c.i
+
+Core/Src/spi.s: Core/Src/spi.c.s
+.PHONY : Core/Src/spi.s
+
+# target to generate assembly for a file
+Core/Src/spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Core/Src/spi.c.s
+.PHONY : Core/Src/spi.c.s
 
 Core/Src/stm32f4xx_hal_msp.obj: Core/Src/stm32f4xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f4xx_hal_msp.obj
@@ -439,6 +607,30 @@ Core/Src/system_stm32f4xx.s: Core/Src/system_stm32f4xx.c.s
 Core/Src/system_stm32f4xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Core/Src/system_stm32f4xx.c.s
 .PHONY : Core/Src/system_stm32f4xx.c.s
+
+Core/Src/tim.obj: Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.obj
+
+# target to build an object file
+Core/Src/tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.obj
+.PHONY : Core/Src/tim.c.obj
+
+Core/Src/tim.i: Core/Src/tim.c.i
+.PHONY : Core/Src/tim.i
+
+# target to preprocess a source file
+Core/Src/tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.i
+.PHONY : Core/Src/tim.c.i
+
+Core/Src/tim.s: Core/Src/tim.c.s
+.PHONY : Core/Src/tim.s
+
+# target to generate assembly for a file
+Core/Src/tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Core/Src/tim.c.s
+.PHONY : Core/Src/tim.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
@@ -680,6 +872,54 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
 
@@ -775,6 +1015,30 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s: Drivers/STM32F4xx_HAL_D
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj
@@ -1088,6 +1352,30 @@ application/init_task.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/application/init_task.cpp.s
 .PHONY : application/init_task.cpp.s
 
+application/ins_task.obj: application/ins_task.cpp.obj
+.PHONY : application/ins_task.obj
+
+# target to build an object file
+application/ins_task.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.obj
+.PHONY : application/ins_task.cpp.obj
+
+application/ins_task.i: application/ins_task.cpp.i
+.PHONY : application/ins_task.i
+
+# target to preprocess a source file
+application/ins_task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.i
+.PHONY : application/ins_task.cpp.i
+
+application/ins_task.s: application/ins_task.cpp.s
+.PHONY : application/ins_task.s
+
+# target to generate assembly for a file
+application/ins_task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\balance_car.elf.dir\build.make CMakeFiles/balance_car.elf.dir/application/ins_task.cpp.s
+.PHONY : application/ins_task.cpp.s
+
 application/motor_task.obj: application/motor_task.cpp.obj
 .PHONY : application/motor_task.obj
 
@@ -1129,6 +1417,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... balance_car.elf
+	@echo ... Components/BMI088/BMI088Driver.obj
+	@echo ... Components/BMI088/BMI088Driver.i
+	@echo ... Components/BMI088/BMI088Driver.s
+	@echo ... Components/BMI088/BMI088Middleware.obj
+	@echo ... Components/BMI088/BMI088Middleware.i
+	@echo ... Components/BMI088/BMI088Middleware.s
+	@echo ... Components/BMI088/bsp_imu_pwm.obj
+	@echo ... Components/BMI088/bsp_imu_pwm.i
+	@echo ... Components/BMI088/bsp_imu_pwm.s
+	@echo ... Components/IST8310/ist8310driver.obj
+	@echo ... Components/IST8310/ist8310driver.i
+	@echo ... Components/IST8310/ist8310driver.s
+	@echo ... Components/IST8310/ist8310driver_middleware.obj
+	@echo ... Components/IST8310/ist8310driver_middleware.i
+	@echo ... Components/IST8310/ist8310driver_middleware.s
 	@echo ... Components/Math/MahonyAHRS.obj
 	@echo ... Components/Math/MahonyAHRS.i
 	@echo ... Components/Math/MahonyAHRS.s
@@ -1153,9 +1456,15 @@ help:
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
+	@echo ... Core/Src/i2c.obj
+	@echo ... Core/Src/i2c.i
+	@echo ... Core/Src/i2c.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/spi.obj
+	@echo ... Core/Src/spi.i
+	@echo ... Core/Src/spi.s
 	@echo ... Core/Src/stm32f4xx_hal_msp.obj
 	@echo ... Core/Src/stm32f4xx_hal_msp.i
 	@echo ... Core/Src/stm32f4xx_hal_msp.s
@@ -1168,6 +1477,9 @@ help:
 	@echo ... Core/Src/system_stm32f4xx.obj
 	@echo ... Core/Src/system_stm32f4xx.i
 	@echo ... Core/Src/system_stm32f4xx.s
+	@echo ... Core/Src/tim.obj
+	@echo ... Core/Src/tim.i
+	@echo ... Core/Src/tim.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s
@@ -1198,6 +1510,12 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s
@@ -1210,6 +1528,9 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s
@@ -1249,6 +1570,9 @@ help:
 	@echo ... application/init_task.obj
 	@echo ... application/init_task.i
 	@echo ... application/init_task.s
+	@echo ... application/ins_task.obj
+	@echo ... application/ins_task.i
+	@echo ... application/ins_task.s
 	@echo ... application/motor_task.obj
 	@echo ... application/motor_task.i
 	@echo ... application/motor_task.s

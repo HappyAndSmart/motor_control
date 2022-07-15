@@ -53,7 +53,9 @@ include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_
         application
         Components/Motor
         Components/Math
-        Components/Support)
+        Components/Support
+        Components/BMI088
+        Components/IST8310)
 
 add_definitions(-DUSE_HAL_DRIVER -DSTM32F407xx)
 
@@ -67,12 +69,18 @@ add_link_options(-T ${LINKER_SCRIPT})
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT}
         application/motor_task.cpp
+        application/ins_task.cpp
         application/init_task.cpp
         Components/Motor/motor.cpp
         Components/Motor/M2006.cpp
         Components/Math/pid.cpp
         Components/Math/MahonyAHRS.c
-        Components/Support/canRxCallback.cpp)
+        Components/Support/canRxCallback.cpp
+        Components/BMI088/BMI088Driver.c
+        Components/BMI088/bsp_imu_pwm.c
+        Components/BMI088/BMI088Middleware.c
+        Components/IST8310/ist8310driver.c
+        Components/IST8310/ist8310driver_middleware.c)
 
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)

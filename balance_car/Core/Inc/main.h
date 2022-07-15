@@ -57,8 +57,23 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define RSTN_IST8310_Pin GPIO_PIN_6
+#define RSTN_IST8310_GPIO_Port GPIOG
+#define IST8310_DRDY_Pin GPIO_PIN_3
+#define IST8310_DRDY_GPIO_Port GPIOG
+#define IST8310_DRDY_EXTI_IRQn EXTI3_IRQn
 #define LED_Pin GPIO_PIN_11
 #define LED_GPIO_Port GPIOH
+#define CS1_ACCEL_Pin GPIO_PIN_4
+#define CS1_ACCEL_GPIO_Port GPIOA
+#define ACCEL_DRDY_Pin GPIO_PIN_4
+#define ACCEL_DRDY_GPIO_Port GPIOC
+#define ACCEL_DRDY_EXTI_IRQn EXTI4_IRQn
+#define GYRO_DRDY_Pin GPIO_PIN_5
+#define GYRO_DRDY_GPIO_Port GPIOC
+#define GYRO_DRDY_EXTI_IRQn EXTI9_5_IRQn
+#define CS1_GYRO_Pin GPIO_PIN_0
+#define CS1_GYRO_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
